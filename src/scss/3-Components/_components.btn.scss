@@ -1,2 +1,19 @@
-.c-btn{
+.c-btn {
+    @apply inline-block text-center uppercase font-default text-s font-medium leading-16;
+}
+
+.c-btn--orange {
+    @apply bg-orange rounded border-[1px] border-orange text-white transition-all duration-300 hover:bg-transparent hover:text-orange;
+}
+
+.c-btn--orange-outline {
+    @apply bg-transparent rounded border-[1px] border-orange text-orange transition-all duration-300 hover:bg-orange hover:text-white;
+}
+
+.c-btn--sm {
+    
+}
+
+.c-btn--md {
+    @apply py-[13px] px-8;
 }

@@ -1,11 +1,23 @@
 h1 {
+    @apply font-default text-turquoise font-bold text-lg md:text-xl lg:text-2xl leading-13;
 }
 
 h2 {
+    @apply font-default text-turquoise font-bold leading-13 text-2md md:text-xl;
 }
 
 h3 {
+    @apply font-default text-turquoise font-bold leading-13 text-2md md:text-lg;
 }
 
 h4 {
+    @apply font-default text-turquoise font-bold leading-13 text-md md:text-2md;
+}
+
+h5 {
+    @apply font-default text-turquoise font-bold leading-13 md:text-base2;
+}
+
+h6 {
+    @apply font-default text-turquoise font-bold leading-13 text-sl;
 }

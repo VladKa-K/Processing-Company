@@ -13,17 +13,16 @@ module.exports = {
       ],
     }, 
     fontSize: {
-      'xs': '12px',
+      's': '12px',
       'sm': '14px',
+      'sl': '15px',
       'base': '16px',
       'base2': '18px',
       'md': '20px',
-      '2md': '24px',
-      'lg': '32px',
-      '2lg': '34px',
-      'xl': '40px',
-      '2xl': '42px',
-      '3xl': '54px',
+      '2md': '26px',
+      'lg': '36px',
+      'xl': '42px',
+      '2xl': '44px',
     },
     lineHeight: {
       10: '1',
@@ -44,13 +43,21 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: '16px',
+      padding: '15px',
       screens: {
         DEFAULT: '100%',
-        xl: '1272px',
+        xl: '1130px',
       },
     },
-    extend: {},
+    extend: {
+      colors: {
+        'white': '#ffffff',
+        'black': '#000000',
+        'orange': '#F2994A',
+        'turquoise': '#99EFD0',
+        'purple': '#8476AA',
+      },
+    },
   },
   plugins: [],
 }
