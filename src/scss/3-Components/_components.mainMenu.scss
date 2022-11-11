@@ -1,0 +1,25 @@
+.c-main-menu {
+    @apply flex-1;
+}
+
+.c-main-menu__main {
+    @apply flex justify-between items-center;
+}
+
+.c-main-menu__main-nav {
+
+    ul {
+        @apply flex gap-x-6;
+
+        li {
+
+            a {
+                @apply transition-all duration-300;
+
+                &:hover {
+                    @apply opacity-75;
+                }
+            }
+        }
+    }
+}

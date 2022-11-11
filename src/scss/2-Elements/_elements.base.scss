@@ -9,13 +9,24 @@
  * 2. Set font to lining figures
  */
  html {
-  box-sizing: border-box;
+  // box-sizing: border-box;
 
 }
 
 body {
   @apply font-default text-purple;
   background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%), no-repeat;
+}
+
+* {
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  &,
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
 }
 
 

@@ -46,6 +46,9 @@ module.exports = {
       padding: '15px',
       screens: {
         DEFAULT: '100%',
+        sm: '100%',
+        md: '100%',
+        xl: '100%',
         xl: '1130px',
       },
     },
