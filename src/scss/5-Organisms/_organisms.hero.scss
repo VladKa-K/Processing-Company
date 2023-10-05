@@ -1,0 +1,27 @@
+.o-hero {
+    @apply pb-10 md:pb-14 md:pt-[160px] lg:pt-[220px];
+}
+
+.o-hero__row {
+    @apply md:flex items-center md:gap-x-8;
+}
+
+.o-hero__col {
+    @apply md:w-1/2 xl:w-[531px] md:shrink-0 mb-16 md:mb-0;
+
+    img {
+        @apply xl:w-[637px] xl:min-w-[637px] xl:transform xl:translate-x-20;
+    }
+}
+
+.o-hero__title {
+    @apply mb-5;
+}
+
+.o-hero__description {
+    @apply  max-w-[455px] text-base2;
+}
+
+.o-hero__buttons {
+    @apply flex gap-x-5 mt-10;
+}

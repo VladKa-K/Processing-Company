@@ -9,7 +9,8 @@
  * 2. Set font to lining figures
  */
  html {
-  // box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden
 
 }
 
@@ -22,6 +23,7 @@ body {
   font-family: inherit;
   line-height: inherit;
   color: inherit;
+  max-width: 100%;
   &,
   &:before,
   &:after {

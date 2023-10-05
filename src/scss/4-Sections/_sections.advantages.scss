@@ -1,0 +1,39 @@
+.s-advantages {
+    @apply py-[24px] md:py-[45px];
+}
+
+.s-advantages__title {
+    @apply mb-3 text-center;
+}
+
+.s-advantages__description {
+    @apply mb-12 text-center;
+}
+
+.s-advantages__grid {
+    @apply grid gap-x-11 gap-y-9 grid-cols-3;
+}
+
+.s-advantages__grid-item {
+    @apply flex gap-x-6;
+}
+
+.s-advantages__grid-item-icon {
+    @apply shrink-0;
+
+    svg {
+        @apply w-6 h-6;
+    }
+}
+
+.s-advantages__grid-item-body {
+    @apply flex flex-col;
+}
+
+.s-advantages__grid-item-title {
+    @apply mb-3 flex-1;
+}
+
+.s-advantages__grid-item-description {
+    @apply font-semibold;
+}

@@ -1,0 +1,16 @@
+.s-logo-slider {
+    @apply py-[24px] md:py-[45px];
+}
+
+.s-logo-slider__slide {
+    @apply h-[25px] contrast-50;
+    @apply transition-all duration-200;
+
+    &:hover {
+        @apply contrast-100;
+    }
+
+    img {
+        @apply w-full h-full object-contain;
+    }
+}
