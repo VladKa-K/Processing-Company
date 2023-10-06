@@ -11,7 +11,8 @@
 }
 
 .s-advantages__grid {
-    @apply grid gap-x-11 gap-y-9 grid-cols-3;
+    @apply grid gap-x-11 gap-y-9;
+    grid-template-columns: repeat(auto-fit, minmax(299px, 1fr));
 }
 
 .s-advantages__grid-item {
