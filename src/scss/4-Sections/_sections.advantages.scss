@@ -1,5 +1,11 @@
 .s-advantages {
-    @apply py-[24px] md:py-[45px];
+    @apply py-[24px] md:py-[45px] relative;
+    // background-image: url('/src/img/advantages-pattern.svg')
+}
+
+.s-advantages__pattern {
+    @apply absolute w-full h-full left-1/2 -translate-x-1/2 max-w-[1440px];
+    @apply bg-[url('/src/img/advantages-pattern.svg')] bg-cover bg-no-repeat;
 }
 
 .s-advantages__title {
