@@ -1,11 +1,15 @@
 .s-advantages {
-    @apply py-[24px] md:py-[45px] relative;
-    // background-image: url('/src/img/advantages-pattern.svg')
+    @apply py-8 md:py-11 lg:py-20 relative;
+
+    .container {
+        @apply relative;
+    }
 }
 
 .s-advantages__pattern {
-    @apply absolute w-full h-full left-1/2 -translate-x-1/2 max-w-[1440px];
-    @apply bg-[url('/src/img/advantages-pattern.svg')] bg-cover bg-no-repeat;
+    @apply hidden;
+    @apply md:block md:absolute md:w-full md:h-full md:left-1/2 md:-translate-x-1/2 md:max-w-[1440px];
+    @apply md:bg-[url('/src/img/advantages-pattern.svg')] md:bg-cover md:bg-no-repeat;
 }
 
 .s-advantages__title {

@@ -1,0 +1,43 @@
+.s-cta-cols {
+    @apply py-8;
+    @apply md:py-11;
+    @apply lg:py-20;
+}
+
+.s-cta-cols__row {
+    @apply md:flex md:justify-between md:items-center md:gap-x-8;
+}
+
+.s-cta-cols__col {
+    @apply md:w-[470px];
+
+    img {
+        @apply w-full h-full object-contain mx-auto;
+    }
+}
+
+.s-cta-cols__col:nth-child(1) {
+    @apply mb-8;
+    @apply md:mb-0;
+}
+
+.s-cta-cols__title {
+    @apply mb-4;
+    @apply md:mb-8;
+
+    br {
+        @apply hidden;
+        @apply md:block;
+    }
+}
+
+.s-cta-cols__description {
+    @apply mb-6;
+    @apply md:mb-11;
+}
+.c-btn {
+}
+.c-btn--orange {
+}
+.c-btn--lg {
+}
