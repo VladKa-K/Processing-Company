@@ -1,0 +1,27 @@
+.s-title-cta {
+    @apply py-8 text-center;
+    @apply md:py-11;
+    @apply lg:py-20;
+}
+
+.container {
+}
+
+.s-title-cta__title {
+    @apply mb-6;
+    @apply md:mb-11;
+
+    br {
+        @apply hidden;
+        @apply md:block;
+    }
+}
+
+.s-title-cta__button {
+    @apply relative z-[1];
+}
+
+.s-title-cta__img {
+    @apply relative z-0 -mt-5 mx-auto;
+    @apply md:-mt-32;
+}

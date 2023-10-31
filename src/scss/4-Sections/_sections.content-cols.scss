@@ -20,11 +20,21 @@
 .s-content-cols__title {
     @apply text-center mb-4;
     @apply md:mb-8;
+
+    br {
+        @apply hidden;
+        @apply md:block;
+    }
 }
 
 .s-content-cols__description {
     @apply text-center mb-6;
     @apply md:mb-12;
+
+    br {
+        @apply hidden;
+        @apply md:block;
+    }
 }
 .s-content-cols__row {
     @apply flex flex-wrap justify-between items-center gap-y-8;
