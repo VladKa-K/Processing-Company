@@ -1,0 +1,53 @@
+.s-cta-mail {
+    @apply py-8 relative text-center;
+    @apply md:py-11;
+    @apply lg:py-20;
+
+    .container {
+        @apply relative;
+    }
+}
+
+.s-cta-mail__pattern {
+    @apply hidden absolute w-full h-full max-w-[1440px] top-[15px] left-1/2 transform -translate-x-1/2 bg-[url('/src/img/cta-mail-pattern.svg')] bg-contain bg-no-repeat;
+    @apply md:block;
+}
+
+.s-cta-mail__wrapper {
+    @apply bg-[#1a134b] rounded-[5px] overflow-hidden;
+}
+
+.s-cta-mail__box {
+    @apply py-[50px] px-4 bg-purple/[19%];
+    @apply md:px-[50px];
+}
+
+.s-cta-mail__title {
+    @apply text-orange mb-5;
+}
+
+.s-cta-mail__description {
+    @apply max-w-[396px] mx-auto mb-6;
+}
+
+.s-cta-mail__form {
+    @apply mb-4 flex justify-center;
+
+    input[type="email"] {
+        @apply font-default font-normal leading-14 tracking-[0.2px] text-white/20 bg-[#F6F6F6]/[10%] outline-none py-[18px] px-4 rounded-tl-[10px] rounded-bl-[10px] w-[70%];
+        @apply md:w-[288px];
+    }
+
+    input[type="submit"] {
+        @apply font-default font-medium text-s leading-16 tracking-[0.2px] uppercase text-center bg-orange p-[18px] text-white rounded-tr-[10px] rounded-br-[10px] w-[30%] cursor-pointer;
+        @apply transition-all duration-300;
+        @apply md:w-32;
+
+        &:hover {
+            @apply opacity-75;
+        }
+    }
+}
+
+.s-cta-mail__form-description {
+}
