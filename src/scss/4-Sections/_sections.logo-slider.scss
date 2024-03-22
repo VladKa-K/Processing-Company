@@ -1,10 +1,15 @@
 .s-logo-slider {
     @apply py-[24px] md:py-[45px];
+
+    .swiper-wrapper {
+        @apply ease-linear #{!important};
+    }
 }
 
 .s-logo-slider__slide {
-    @apply h-[25px] contrast-50;
+    @apply contrast-50;
     @apply transition-all duration-200;
+    @apply h-[25px] #{!important};
 
     &:hover {
         @apply contrast-100;
