@@ -13,4 +13,18 @@ $(document).ready(function(){
     window.addEventListener('scroll', () => {
         changeHeaderOnScroll();
     });
+
+    $('.js--menu-mobile-button').on('click', function() {
+        $(this).toggleClass('is-opened');
+        $('.js--main-menu').toggle();
+        $('body').toggleClass('overflow-hidden');
+        $('.o-header').toggleClass('is-active');
+    });
+    
+    $(window).on('resize', function() {
+        $('.js--menu-mobile-button').removeClass('is-opened');
+        $('.js--main-menu').removeAttr('style');
+        $('body').removeClass('overflow-hidden');
+        $('.o-header').removeClass('is-active');
+    });
 }); 

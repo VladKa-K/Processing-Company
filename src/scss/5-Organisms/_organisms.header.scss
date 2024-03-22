@@ -1,12 +1,21 @@
 .o-header {
     @apply py-8 lg:pt-12 fixed w-full top-0 transition-all duration-300 z-[9999];
+    @apply transition-all duration-300;
 }
 
 .o-header__wrap {
     @apply flex gap-x-14 justify-between items-center;
 }
 
+.o-header__logo {
+    @apply shrink-0;
+}
+
 .o-header.scrolled {
     @apply py-6 lg:pt-6;
-    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%), no-repeat;
+    background: linear-gradient(242.26deg, #3B1D60 1.22%, #040D3E 106.28%), no-repeat;
+}
+
+.o-header.is-active {
+    background: linear-gradient(242.26deg, #3B1D60 1.22%, #040D3E 106.28%), no-repeat;
 }
